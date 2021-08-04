@@ -65,6 +65,7 @@ sheet2 =
 
 workbook = Workbook.append_sheet(workbook, sheet2)
 
+
 # For the list of rows approach, cells with properties can be encoded by using a
 # list with the value at the head and the properties in the tail:
 sheet3 = %Sheet{
